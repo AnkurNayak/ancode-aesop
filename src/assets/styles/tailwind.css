@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text__disabled {
+    @apply text-[#666666] font-medium;
+  }
+  .text__hover {
+    @apply text-[#333333] hover:text-black;
+  }
+  .padding__x {
+    @apply px-5 sm:px-[34px] lg:px-10;
+  }
+  .padding__r__img {
+    @apply pr-5 sm:pr-[12.5%] lg:pr-0;
+  }
+  .padding__l__img {
+    @apply pl-5 sm:pl-[12.5%] lg:pl-0;
+  }
+  .padding__all {
+    @apply p-5 sm:p-[34px] lg:p-10;
+  }
+  .banner__larger__img {
+    @apply w-full h-full object-cover min-h-[390px] max-h-[390px] sm:min-h-[640px] sm:max-h-[640px];
+  }
+
+  .padding__container {
+    @apply pt-[100px] lg:pt-[150px];
+  }
+
+  .padding__container__x {
+    @apply px-5 sm:px-[34px] lg:px-20;
+  }
+}
